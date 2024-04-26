@@ -1,0 +1,23 @@
+@import "@/styles/variables.scss";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 8px 22.5px;
+  border: none;
+
+  background: #6727ad;
+  color: #fff;
+
+  border-radius: 100px;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+  transition: filter .3s;
+
+  &:hover {
+    filter: brightness(1.25);
+  }
+}

@@ -1,0 +1,8 @@
+$breakpoints: (
+  xxl: 1400px,  // ↓ max   Desktop ~ DesktopFirst
+  xl: 1200px,   // ↓ max   Labtop  - Desktop   ↑ min
+  lg: 992px,    // ↓ max   Tablet  - Labtop    ↑ min
+  md: 768px,    // ↓ max   Phablet - Tablet    ↑ min
+  sm: 576px,    // ↓ max   Phone   - Phablet   ↑ min
+  xs: 0,        //     MobileFirst ~ Phone     ↑ min
+);

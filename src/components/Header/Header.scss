@@ -1,0 +1,30 @@
+@import "@/styles/viewport-desktop-first";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--padding);
+  z-index: 1;
+  position: relative;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    pointer-events: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+
+    @include onTablet {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.navigation {
+  &__list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+  
+  &__item {
+    font-size: 16px;
+    height: 100%;
+
+    &:hover {
+      color: #fff;
+      text-shadow: 0 0 8px white;
+      text-decoration: underline;
+    }
+  }
+  
+  &__link {
+    color: #fff;
+    text-decoration: none;
+  }
+}
